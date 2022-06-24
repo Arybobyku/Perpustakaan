@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="soft_pink">#774360</color>
+    <color name="pink">#F2D1D1</color>
+    <color name="soft_purple">#D3CEDF</color>
+    <color name="soft_blue">#9CB4CC</color>
+    <color name="smooth_blue">#DAEAF1</color>
+    <color name="medium_blue">#748DA6</color>
+    <color name="grey">#F7F5F2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

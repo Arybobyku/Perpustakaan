@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Perpustakaan</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="perpustakaan">Perpustakaan</string>
+    <string name="loading">Loading...</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+    <string name="books">Books</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="history">History</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

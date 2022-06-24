@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/register_layout"
+    tools:context=".ui.activity.register.RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/soft_pink"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:text="@string/daftar"/>
+
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="match_parent"
+            android:hint="@string/name"
+            android:maxLines="1"
+            android:padding="12dp"
+            android:background="@drawable/view_round_edit_text_white"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/email_et"
+            android:layout_width="match_parent"
+            android:hint="@string/email"
+            android:padding="12dp"
+            android:maxLines="1"
+            android:background="@drawable/view_round_edit_text_white"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="match_parent"
+            android:hint="@string/password"
+            android:padding="12dp"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:background="@drawable/view_round_edit_text_white"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:text="@string/daftar"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:background="@drawable/background_button_color_primary"
+            android:maxLines="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
